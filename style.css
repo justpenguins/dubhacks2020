@@ -3,11 +3,22 @@ Date: 10/17/2020
 This CSS file would style the map
 */
 
+/* Changes the first header on the page */
+.header {
+    font-family: Bahnschrift;
+    font-size: 50px;
+}
+
+#info{
+    padding-left: 30px;
+}
+
 .topnav {
   background-color: #333;
   overflow: hidden;
   font-family: Helvetica;
   font: 20;
+  margin-left: 22px;
 }
 
 /* Style the links inside the navigation bar */
@@ -41,6 +52,7 @@ This CSS file would style the map
 .fronthead {
     font: 40;
     font-family: Bahnschrift;
+    font-color: "white";
     position: absolute;
     top: 50%;
     left: 50%;
@@ -58,9 +70,10 @@ This CSS file would style the map
 #frontimage {
     width: 900px;
     height: 500px;
-    margin-top: 100px
-    margin-left: 150px;
-    margin-right: 150px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     filter: blur(2.5px);
 }
 

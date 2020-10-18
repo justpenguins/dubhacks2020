@@ -3,6 +3,7 @@
   * This Javacript file would add some functions to the map and make
   * it interactive
   */
+<<<<<<< HEAD
 function initMap() {
   let coord1 = { lat: 47.5374665, lng: -122.2830449 }
   let coord2 = { lat: 47.569190, lng: -122.325940 }
@@ -104,3 +105,33 @@ function initMap2() {
     map: map2,
   });
 }
+=======
+function myMap() {
+    var myLatLng = new google.maps.LatLng(47.6050, -122.3344);
+    //TODO: add in all the different coordinates of all the facilities (setting them as consts may be better)
+
+    var mapProp= {
+        zoom: 15,
+        center: myLatLng
+      };
+
+    /* sets js in html*/
+    var map = new google.maps.Map(document.getElementById("googleMap"),
+    mapProp);
+
+    /* sets a floating marker*/
+    var marker = new google.maps.Marker({
+    position: myLatLng,
+    title: "Test Marker!"
+    });
+    //TODO: Adding different icons amy also be good.
+
+    marker.setMap(map);
+  }
+
+
+
+
+
+
+>>>>>>> 5450d3534e61629cf6aa89787567c575cfb902f3
