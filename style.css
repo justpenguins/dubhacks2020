@@ -5,7 +5,7 @@ This CSS file would style the map
 
 /* Changes the first header on the page */
 .header {
-    font-family: Bahnschrift;
+    font-family:  "Century Gothic", Helvetica, sans-serif;
     font-size: 50px;
 }
 
@@ -50,17 +50,13 @@ This CSS file would style the map
 }
 
 .fronthead {
-    font: 40;
+    font-size: 60px;
     font-family: Bahnschrift;
     font-color: "white";
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.fronthead, .header {
-  font-family: "Century Gothic", Helvetica, sans-serif;
 }
 
 .fronthead {
@@ -80,10 +76,4 @@ This CSS file would style the map
 #map, #map2{
   width: 50%;
   height: 400px;
-}
-
-#frontimage{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
