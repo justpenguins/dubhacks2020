@@ -3,7 +3,7 @@
   Date: 10/17/2020
   This page would let user find basic resources on the interactive map
 -->
-<html lang="en">
+<html lang="en" xmlns:width="http://www.w3.org/1999/xhtml" xmlns:margin-top="http://www.w3.org/1999/xhtml">
     <head>
         <title>Resource map for homeless people</title>
         <link rel="stylesheet" href="style.css">
@@ -18,7 +18,38 @@
             <a href="add.html">Add a site</a>
         </div>
 
-        <h1 class="header">Add a site</h1>
+
+        <div class="form" style="margin-top: 30px;">
+
+            <h2> Thank you for supporting your community!</h2>
+            <form action="action_page.php">
+
+                <label>What's the name of your site?</label>
+                    <br>
+                <input type="text" id="sname">
+                    <br>
+
+                <label>What's the address of your site?</label>
+                    <br>
+                <input type="text" id="saddress">
+                    <br>
+                    <br>
+
+                <label>What's the best way to contact you?</label>
+                    <br>
+                <input type="tel" id="pnumber" placeholder="(604)-123-4567">
+                    <br>
+                    <br>
+
+                <label>What times are you available?</label>
+                    <br>
+                <input type="time" id="time name">
+                    <br>
+                    <br>
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
 
     </body>
 </html>
